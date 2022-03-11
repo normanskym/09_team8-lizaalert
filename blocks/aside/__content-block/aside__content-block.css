@@ -9,7 +9,7 @@
 
 .aside__content-block:not(:last-child) {
 	border-bottom: 1px solid #e6e7eb;
-	padding-bottom: 33px;
+	padding-bottom: 32px;
 }
 
 @media (max-width: 1024px) {

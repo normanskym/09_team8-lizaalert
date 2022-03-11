@@ -1,3 +1,5 @@
 .test__result {
     text-align: end;
+    margin: 0;
+    padding: 0;
 }
