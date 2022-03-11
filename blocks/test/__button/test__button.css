@@ -1,0 +1,13 @@
+.test__button {
+    margin: 16px auto 0;
+    padding: 12px 39px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #ff6600;
+    border-radius: 16px;
+    color: #ffff;
+    display: block;
+    cursor: pointer;
+}
