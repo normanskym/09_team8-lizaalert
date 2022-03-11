@@ -1,0 +1,9 @@
+.aside__icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 20px;
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,10 @@
+.aside__content-items {
+	padding-top: 32px;
+	padding-left: 0;
+	max-height: 100%;
+	margin: 0;
+	opacity: 1;
+	list-style: none;
+	overflow: hidden;
+	transition: max-height 0.2s;
+}
