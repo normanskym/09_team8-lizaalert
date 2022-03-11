@@ -6,7 +6,6 @@
     line-height: 24px;
     color: #212329;
 }
-
 .test__item:last-child {
     margin-bottom: 0;
 }
