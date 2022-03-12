@@ -1,0 +1,14 @@
+.test__result-item {
+    margin: 0 0 17px;
+    padding: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #212329;
+    text-decoration: none;
+}
+
+.test__result-item:last-child {
+    margin-bottom: 32px;
+}

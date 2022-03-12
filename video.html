@@ -36,24 +36,28 @@
 			<li class="breadcrumbs__item breadcrumbs__item_active">Видео</li>
 		</ul>
 	</section>
-	<main class="content">
-	  <section class="video">
-		<h1 class="video__title">Видео</h1>
-		<div class="video__container">
-			<video class="video__zone" src="#" poster="./images/video-poster.jpg">
-				<source src="#" type="video/mp4">
-				<source src="#" type="video/webm">
-				<h2>Данный браузер не может воспроизвести это видео</h2>
-			</video>
-			<div class="video__control-tools">
-				<button class="video__play-button" type="button"></button>
-				<input class="video__rewind" type="range" value="0">
-				<button class="video__mute-button" type="button"></button>
-				<input class="video__volume" type="range" value="100">
-				<button class="video__fullscreen-button" type="button"></button>
+	<main class="test">
+		<div class="test__container">
+			<div class="video">
+				<h2 class="video__header">Видео</h2>
+				<div class="video__container">
+					<video class="video__area" src="#" poster="./images/video-poster.jpg">
+						<source src="#" type="video/mp4">
+						<source src="#" type="video/webm">
+						<h3>Данный браузер не может воспроизвести это видео</h3>
+					</video>
+					<div class="video__control-tools">
+						<button class="video__play-button" type="button"></button>
+						<input class="video__rewind" type="range" value="0">
+						<button class="video__mute-button" type="button"></button>
+						<input class="video__volume" type="range" value="100">
+						<button class="video__fullscreen-button" type="button"></button>
+					</div>
+				</div>
 			</div>
+			<button class="test__button test__button_next">Далее &rarr;</button>
+			<button class="test__button test__button_back">&larr; Назад</button>
 		</div>
-	  </section>
 	</main>
 	<aside class="aside sidebar_right">
 		<div class="aside__content-form">
@@ -132,7 +136,7 @@
 							<span class="aside__content-item-label">Урок</span>
 						</li>
 						<li class="aside__content-item">
-							<span class="aside__icon aside__icon_video aside__icon_active"></span>
+							<span class="aside__icon aside__icon_video-active"></span>
 							<span class="aside__content-item-label aside__content-item-label_active">Видео</span>
 						</li>
 						<li class="aside__content-item">
