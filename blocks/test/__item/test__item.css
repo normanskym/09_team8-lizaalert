@@ -1,12 +1,10 @@
 .test__item {
     list-style-type: none;
-    margin: 0 0 16px 0;
+    margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     color: #212329;
-}
-
-.test__item:last-child {
-    margin-bottom: 0;
+    max-width: 80%;
+    display: flex;
 }
