@@ -59,3 +59,7 @@
 @import url(../blocks/test/__area/test__area.css);
 @import url(../blocks/test/__question/test__question.css);
 @import url(../blocks/test/__answer-container/test__answer-container.css);
+@import url(../blocks/test/__answer-label/test__answer-label.css);
+@import url(../blocks/test/__answer-check/test__answer-check.css);
+@import url(../blocks/test/__answer-check-text/test__answer-check-text.css);
+@import url(../blocks/test/__answer-check-visible/test__answer-check-visible.css);

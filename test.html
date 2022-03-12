@@ -46,11 +46,28 @@
 				<div class="test__question">1. В каких случаях перспективно применение следовых кинологических
 					расчётов?</div>
 					<div class="test__answer-container">
-					  <input class="test__answer-input" type="checkbox" id="first-checkbox" name="answer" value="first-checkbox"/>
-					  <label class="test__answer-label" for="first-checkbox">Оказание помощи гражданам, оказавшимся в зонах бедствия
-						или пропавшим в безлюдной местности
+					  <label class="test__answer-label" for="first-checkbox">
+						<input class="test__answer-check" type="checkbox" id="first-checkbox" name="answer" value="first-checkbox"/> 
+						<span class="test__answer-check-visible"></span>
+						<p class="test__answer-check-text">Оказание помощи гражданам, оказавшимся в зонах бедствия
+							или пропавшим <br>в безлюдной местности</p>
 					  </label>
 					</div>
+					
+					<div class="test__answer-container">
+						<label class="test__answer-label" for="second-checkbox">
+						  <input class="test__answer-check" type="checkbox" id="second-checkbox" name="answer" value="second-checkbox"/> 
+						  <span class="test__answer-check-visible"></span>
+						  <p class="test__answer-check-text">Обучение животного идти как по горячему, так и по остывшему следу</p>
+						</label>
+					  </div>
+					  <div class="test__answer-container">
+						<label class="test__answer-label" for="third-checkbox">
+						  <input class="test__answer-check" type="checkbox" id="third-checkbox" name="answer" value="third-checkbox"/> 
+						  <span class="test__answer-check-visible"></span>
+						  <p class="test__answer-check-text">Поиск тел и их остатков с применением специально обученных собак</p>
+						</label>
+					  </div>
 			
 			</fieldset>
 			<button class="test__button test__button_next">Далее &rarr;</button>
