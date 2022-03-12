@@ -55,3 +55,7 @@
 @import url(../blocks/test/__button/test__button.css);
 @import url(../blocks/test/__button/_back/test__button_back.css);
 @import url(../blocks/test/__button/_next/test__button_next.css);
+@import url(../blocks/test/__link/test__link.css);
+@import url(../blocks/test/__area/test__area.css);
+@import url(../blocks/test/__question/test__question.css);
+@import url(../blocks/test/__answer-container/test__answer-container.css);
