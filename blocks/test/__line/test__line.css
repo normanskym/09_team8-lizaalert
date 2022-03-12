@@ -1,0 +1,10 @@
+.test__line {
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.test__line:last-child {
+    margin-bottom: 0;
+}

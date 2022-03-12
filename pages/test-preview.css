@@ -51,8 +51,9 @@
 @import url(../blocks/test/__header/test__header.css);
 @import url(../blocks/test/__text/test__text.css);
 @import url(../blocks/test/__item/test__item.css);
-@import url(../blocks/test/__list/text__list.css);
 @import url(../blocks/test/__logo/test__logo.css);
-@import url(../blocks/test/__name/test__name.css);
+@import url(../blocks/test/__line/test__line.css);
 @import url(../blocks/test/__result/test__result.css);
 @import url(../blocks/test/__button/test__button.css);
+@import url(../blocks/test/__button/_back/test__button_back.css);
+@import url(../blocks/test/__button/_next/test__button_next.css);
