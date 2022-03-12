@@ -19,10 +19,11 @@
 @import url(../blocks/aside/aside.css);
 @import url(../blocks/aside/__filter-list/aside__filter-list.css);
 @import url(../blocks/aside/__icon/aside__icon.css);
-@import url(../blocks/aside/__icon/_active/aside__icon_active.css);
 @import url(../blocks/aside/__icon/_success/aside__icon_success.css);
 @import url(../blocks/aside/__icon/_test/aside__icon_test.css);
+@import url(../blocks/aside/__icon/_test-active/aside__icon_test-active.css);
 @import url(../blocks/aside/__icon/_video/aside__icon_video.css);
+@import url(../blocks/aside/__icon/_video-active/aside__icon_video-active.css);
 @import url(../blocks/aside/__content-form/aside__content-form.css);
 @import url(../blocks/aside/__content-items/aside__content-items.css);
 @import url(../blocks/aside/__content-item/aside__content-item.css);
