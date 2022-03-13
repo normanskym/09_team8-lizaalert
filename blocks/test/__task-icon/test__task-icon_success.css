@@ -1,0 +1,10 @@
+.test__task-icon_success {
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  background-image: url(../../../images/sidebar_icon-success.svg);
+}

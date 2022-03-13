@@ -6,8 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="This is courses web-page">
-	<title>Курс завершен</title>
-	<link rel="stylesheet" href="./pages/course-passed.css">
+	<title>Тест пройден</title>
+	<link rel="stylesheet" href="./pages/test-passed.css">
 </head>
 
 <body class="page_course">
@@ -33,21 +33,55 @@
 			<li class="breadcrumbs__item"">Курсы</li>
 			<li class=" breadcrumbs__item"">Кинологическое направление</li>
 			<li class="breadcrumbs__item"">5. Работа «второго номера» совместно со следовым кинологическим расчётом</li>
+
 			<li class=" breadcrumbs__item breadcrumbs__item_active"">Тест</li>
 		</ul>
 	</section>
 	<section class="test">
 		<div class="test__container">
 			<div class="test__header-container">
-				<h2 class="test__header">Курс завершен</h2>
+				<h2 class="test__header">Тест</h2>
+				<p class="test__header-text">Посмотреть условия</p>
 			</div>
-			<h3 class="test__result">Поздравляем!</h3>
-			<ul class="test__result-text">
-				<li class="test__result-item">Вы успешно завершили курс «Кинологическое направление».</li>
-				<li class="test__result-item">Теперь вы можете участвовать в поисково-спасательных мероприятиях со своей
-					собакой.</li>
+			<p class="test__result-header">1. В каких случаях перспективно применение следовых кинологических расчётов?</p>
+			<ul class="test__tasks">
+				<li class="aside__content-item">
+					<span class="test__task-icon_success"></span>
+					<span class="aside__content-item-label">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
+				</li>
+				<li class="aside__content-item">
+					<span class="test__task-icon_ok"></span>
+					<span class="aside__content-item-label">Обучение животного идти как по горячему, так и по остывшему следу</span>
+				</li>
+				<li class="aside__content-item">
+					<span class="test__task-icon_success"></span>
+					<span class="aside__content-item-label">Поиск тел и их остатков с применением специально обученных собак</span>
+				</li>
 			</ul>
-			<button class="test__button test__button_end">Завершить</button>
+			<p class="test__result-header" id="header__under-bottom">2. С какого возраста следует начинать дрессировку по курсу ПСС?</p>
+			<ul class="test__tasks">
+				<li class="aside__content-item">
+					<span class="test__task-icon_false"></span>
+					<span class="aside__content-item-label">6 месяцев</span>
+				</li>
+				<li class="aside__content-item">
+					<span class="test__task-icon_success"></span>
+					<span class="aside__content-item-label">1–1,5 года</span>
+				</li>
+				<li class="aside__content-item">
+					<span class="test__task-icon_false"></span>
+					<span class="aside__content-item-label">3 года</span>
+				</li>
+			</ul>
+			<div class="test__result_type-good">
+				<p class="test__result-percent test__result-percent_type-good">83%</p>
+				<p class="test__result-description test__result-description_type-good">
+					Отличный результат!<br><br>
+					Нажите «Далее» чтобы продолжить.<br>Если считаете, что сможете лучше, нажмите «Пересдать». В случае если результат будет хуже, засчитается наивысший результат.
+				</p>
+			</div>
+			<button class="test__button test__button_reset"><div class="test__button_reset-icon"></div>Пересдать</button>
+			<button class="test__button test__button_end">Далее &rarr;</button>
 			<button class="test__button test__button_back">&larr; Назад</button>
 		</div>
 	</section>
