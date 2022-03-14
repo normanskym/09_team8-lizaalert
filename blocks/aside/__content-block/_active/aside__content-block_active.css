@@ -1,3 +1,10 @@
 .aside__content-block_active .aside__accordion-item-toggler {
 	background-image: url(../../../../images/sidebar_open-option.svg);
 }
+
+.aside__content-block_active .aside__content-items {
+	max-height: 100vh;
+	padding-top: 32px;
+	padding-left: 0;
+	opacity: 1;
+}
