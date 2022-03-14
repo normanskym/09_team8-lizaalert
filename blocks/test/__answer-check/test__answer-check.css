@@ -8,7 +8,7 @@
     background-image: url(../../../images/checkbox-checked.svg);
 }
 
-.test__answer-check:checked~.test__answer-check-text{
+.test__answer-check:checked~.test__answer-text{
     color: #F06000;
 }
 
