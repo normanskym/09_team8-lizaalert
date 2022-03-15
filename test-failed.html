@@ -6,8 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="This is courses web-page">
-	<title>Курс завершен</title>
-	<link rel="stylesheet" href="./pages/course-failed.css">
+	<title>Тест не пройден</title>
+	<link rel="stylesheet" href="./pages/test-passed.css">
 </head>
 
 <body class="page_course">
@@ -32,26 +32,61 @@
 		<ul class="breadcrumbs__list">
 			<li class="breadcrumbs__item"">Курсы</li>
 			<li class=" breadcrumbs__item"">Кинологическое направление</li>
-			<li class=" breadcrumbs__item breadcrumbs__item_active"">Курс завершён</li>
+			<li class="breadcrumbs__item"">5. Работа «второго номера» совместно со следовым кинологическим расчётом</li>
+
+			<li class=" breadcrumbs__item breadcrumbs__item_active"">Тест</li>
 		</ul>
 	</section>
 	<section class="test">
 		<div class="test__container">
 			<div class="test__header-container">
-				<h2 class="test__header">Курс завершен</h2>
+				<h2 class="test__header">Тест</h2>
+				<p class="test__header-text">Посмотреть условия</p>
 			</div>
-			<h3 class="test__result">Сожалеем</h3>
-			<ul class="test__result-text">
-				<li class="test__result-item">Курс <span class="text__result-item_font-bold">«Кинологическое
-						направление»</span> не пройден.</li>
-				<li class="test__result-item">Мы предьявляем очень строгие требования к участникам поисково-спасательных
-					мероприятий, из-за чего обучение может быть сложным. Вы можете попробовать себя <span
-						class="text__result-item_font-bold">в других направлениях.</span></li>
+			<p class="test__result-header">1. В каких случаях перспективно применение следовых кинологических расчётов?</p>
+			<ul class="test__tasks">
+				<li class="aside__content-item">
+					<span class="test__task-icon_success"></span>
+					<span class="aside__content-item-label">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
+				</li>
+				<li class="aside__content-item">
+					<span class="test__task-icon_ok"></span>
+					<span class="aside__content-item-label">Обучение животного идти как по горячему, так и по остывшему следу</span>
+				</li>
+				<li class="aside__content-item">
+					<span class="test__task-icon_success"></span>
+					<span class="aside__content-item-label">Поиск тел и их остатков с применением специально обученных собак</span>
+				</li>
 			</ul>
-			<button class="test__button test__button_end">Завершить</button>
+			<p class="test__result-header" id="header__under-bottom">2. С какого возраста следует начинать дрессировку по курсу ПСС?</p>
+			<ul class="test__tasks">
+				<li class="aside__content-item">
+					<span class="test__task-icon_error"></span>
+					<span class="aside__content-item-label">6 месяцев</span>
+				</li>
+				<li class="aside__content-item">
+					<span class="test__task-icon_ok"></span>
+					<span class="aside__content-item-label">1–1,5 года</span>
+				</li>
+				<li class="aside__content-item">
+					<span class="test__task-icon_false"></span>
+					<span class="aside__content-item-label">3 года</span>
+				</li>
+			</ul>
+			<div class="test__result_type-bad">
+				<p class="test__result-percent test__result-percent_type-bad">33%</p>
+				<p class="test__result-description test__result-description_type-bad">
+					К сожалению, вы не набрали проходной результат.<br><br>Нажмите «Пересдать», чтобы попробовать снова.
+				</p>
+			</div>
+			<button class="test__button test__button_reset-orange"><div class="test__button_reset-orange-icon"></div>Пересдать</button>
+			<button class="test__button test__button_next">Далее &rarr;</button>
 			<button class="test__button test__button_back">&larr; Назад</button>
 		</div>
 	</section>
+
+	<main>
+	</main>
 	<aside class="aside sidebar_right">
 		<div class="aside__content-form">
 			<div class="aside__form-head">
@@ -138,8 +173,8 @@
 							<span class="aside__content-item-label">Видео</span>
 						</li>
 						<li class="aside__content-item">
-							<span class="aside__icon aside__icon_success"></span>
-							<span class="aside__content-item-label">Тест</span>
+							<span class="aside__icon aside__icon_test-active"></span>
+							<span class="aside__content-item-label aside__content-item-label_active">Тест</span>
 						</li>
 					</ul>
 				</li>
@@ -161,6 +196,7 @@
 			</ul>
 		</div>
 	</aside>
+	<script src="./scripts/filter-toggler.js"></script>
 </body>
 
 </html>
