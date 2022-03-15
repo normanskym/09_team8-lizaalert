@@ -1,4 +1,6 @@
 .test__header-container {
     display: flex;
     justify-content: space-between;
+    max-height: 30px;
+    padding-bottom: 32px;
 }

@@ -30,17 +30,74 @@
 	</header>
 	<section class="breadcrumbs">
 		<ul class="breadcrumbs__list">
-			<li class="breadcrumbs__item"">Курсы</li>
-			<li class="breadcrumbs__item"">Кинологическое направление</li>
-			<li class="breadcrumbs__item"">5. Работа «второго номера» совместно со следовым кинологическим расчётом</li>
-			<li class="breadcrumbs__item breadcrumbs__item_active"">Тест</li>
+			<li class="breadcrumbs__item">Курсы</li>
+			<li class="breadcrumbs__item">Кинологическое направление</li>
+			<li class="breadcrumbs__item">5. Работа «второго номера» совместно со следовым кинологическим расчётом</li>
+			<li class="breadcrumbs__item breadcrumbs__item_active">Тест</li>
 		</ul>
 	</section>
 	<section class="test">
 		<div class="test__container">
 			<div class="test__header-container">
 				<h2 class="test__header">Тест</h2>
+				<a class="test__link" href="#">Посмотреть условия</a>
 			</div>
+			<fieldset class="test__area">
+				<div class="test__question">1. В каких случаях перспективно применение следовых кинологических
+					расчётов?</div>
+					<div class="test__answer-container">
+					  <label class="test__answer-label" for="first-checkbox">
+						<input class="test__answer-check" type="checkbox" id="first-checkbox" name="answer" value="first-checkbox"/> 
+						<span class="test__answer-check-visible"></span>
+						<p class="test__answer-text">Оказание помощи гражданам, оказавшимся в зонах бедствия
+							или пропавшим <br>в безлюдной местности</p>
+					  </label>
+					</div>
+					
+					<div class="test__answer-container">
+						<label class="test__answer-label" for="second-checkbox">
+						  <input class="test__answer-check" type="checkbox" id="second-checkbox" name="answer" value="second-checkbox"/> 
+						  <span class="test__answer-check-visible"></span>
+						  <p class="test__answer-text">Обучение животного идти как по горячему, так и по остывшему следу</p>
+						</label>
+					  </div>
+					  <div class="test__answer-container">
+						<label class="test__answer-label" for="third-checkbox">
+						  <input class="test__answer-check" type="checkbox" id="third-checkbox" name="answer" value="third-checkbox"/> 
+						  <span class="test__answer-check-visible"></span>
+						  <p class="test__answer-text">Поиск тел и их остатков с применением специально обученных собак</p>
+						</label>
+					  </div>
+			</fieldset>
+
+			<fieldset class="test__area">
+				<div class="test__question">2. С какого возраста следует начинать дрессировку по курсу ПСС?</div>
+					<div class="test__answer-container">
+					  <label class="test__answer-label" for="first-radiobutton">
+						<input class="test__answer-radio" type="radio" id="first-radiobutton" name="answer-radio" value="first-radiobutton"/> 
+						<span class="test__answer-radio-visible"></span>
+						<p class="test__answer-text">6 месяцев</p>
+					  </label>
+					</div>
+					<div class="test__answer-container">
+						<label class="test__answer-label" for="second-radiobutton">
+						  <input class="test__answer-radio" type="radio" id="second-radiobutton" name="answer-radio" value="second-radiobutton"/> 
+						  <span class="test__answer-radio-visible"></span>
+						  <p class="test__answer-text">1–1,5 года</p>
+						</label>
+					  </div>
+					  <div class="test__answer-container">
+						<label class="test__answer-label" for="third-radiobutton">
+						  <input class="test__answer-radio" type="radio" id="third-radiobutton" name="answer-radio" value="third-radiobutton"/> 
+						  <span class="test__answer-radio-visible"></span>
+						  <p class="test__answer-text">3 года</p>
+						</label>
+					  </div>
+			</fieldset>
+			<button class="test__button_show-result">
+				<p class="test__button_show-result-text">Показать результат</p>
+			</button>
+
 			<button class="test__button test__button_next">Далее &rarr;</button>
 			<button class="test__button test__button_back">&larr; Назад</button>
 		</div>

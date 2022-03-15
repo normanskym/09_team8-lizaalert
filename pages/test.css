@@ -55,3 +55,17 @@
 @import url(../blocks/test/__button/test__button.css);
 @import url(../blocks/test/__button/_back/test__button_back.css);
 @import url(../blocks/test/__button/_next/test__button_next.css);
+@import url(../blocks/test/__link/test__link.css);
+@import url(../blocks/test/__area/test__area.css);
+@import url(../blocks/test/__question/test__question.css);
+@import url(../blocks/test/__answer-container/test__answer-container.css);
+@import url(../blocks/test/__answer-label/test__answer-label.css);
+@import url(../blocks/test/__answer-check/test__answer-check.css);
+@import url(../blocks/test/__answer-text/test__answer-text.css);
+@import url(../blocks/test/__answer-check-visible/test__answer-check-visible.css);
+@import url(../blocks/test/__answer-radio/test__answer-radio.css);
+@import url(../blocks/test/__answer-radio-visible/test__answer-radio-visible.css);
+@import url(../blocks/test/__button/_show-result/test__button_show-result.css);
+@import url(../blocks/test/__button/_show-result-text/test__button_show-result-text.css);
+@import url(../blocks/test/__button/_show-result-active/test__button_show-result-active.css);
+@import url(../blocks/test/__button/_show-result-text-active/test__button_show-result-text-active.css);
