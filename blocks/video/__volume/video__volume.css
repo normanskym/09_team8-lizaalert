@@ -1,0 +1,13 @@
+.video__volume{
+    height: 100%;
+    width: 100px;
+    margin-right: 30px;
+    border-radius: 16px;
+    -webkit-appearance: none;
+}
+
+.video__volume:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}

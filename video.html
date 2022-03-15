@@ -30,21 +30,35 @@
 	</header>
 	<section class="breadcrumbs">
 		<ul class="breadcrumbs__list">
-			<li class="breadcrumbs__item"">Курсы</li>
-			<li class="breadcrumbs__item"">Кинологическое направление</li>
-			<li class="breadcrumbs__item"">5. Работа «второго номера» совместно со следовым кинологическим расчётом</li>
-			<li class="breadcrumbs__item breadcrumbs__item_active"">Видео</li>
+			<li class="breadcrumbs__item">Курсы</li>
+			<li class="breadcrumbs__item">Кинологическое направление</li>
+			<li class="breadcrumbs__item">5. Работа «второго номера» совместно со следовым кинологическим расчётом</li>
+			<li class="breadcrumbs__item breadcrumbs__item_active">Видео</li>
 		</ul>
 	</section>
-	<section class="test">
+	<main class="test">
 		<div class="test__container">
-			<div class="test__header-container">
-				<h2 class="test__header">Видео</h2>
+			<div class="video">
+				<h2 class="video__header">Видео</h2>
+				<div class="video__container">
+					<video class="video__area" src="#" poster="./images/video-poster.jpg">
+						<source src="#" type="video/mp4">
+						<source src="#" type="video/webm">
+						<h3>Данный браузер не может воспроизвести это видео</h3>
+					</video>
+					<div class="video__control-tools">
+						<button class="video__play-button" type="button"></button>
+						<input class="video__rewind" type="range" value="0">
+						<button class="video__mute-button" type="button"></button>
+						<input class="video__volume" type="range" value="100">
+						<button class="video__fullscreen-button" type="button"></button>
+					</div>
+				</div>
 			</div>
 			<button class="test__button test__button_next">Далее &rarr;</button>
 			<button class="test__button test__button_back">&larr; Назад</button>
 		</div>
-	</section>
+	</main>
 	<aside class="aside sidebar sidebar_right">
 		<div class="aside__content-form">
 			<div class="aside__form-head">
