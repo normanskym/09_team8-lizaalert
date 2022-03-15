@@ -5,6 +5,13 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    padding-top: 32px;
     list-style: none;
     border: none;
+    border-top: 1px solid #E6E7EB;
+}
+
+.test__area:first-of-type {
+    padding: 0;
+    border-top: none;
 }
