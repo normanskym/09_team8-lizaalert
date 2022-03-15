@@ -1,0 +1,19 @@
+.test__button_reset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10px;
+  background-color: #ffffff;
+  color: #ff6600;
+  border: 1.2px solid #e6e7eb;
+  width: 183px;
+}
+
+.test__button_reset:hover {
+  color: #ffffff;
+  background-color: #ff6600;
+}
+
+.test__button_reset:hover .test__button_reset-icon {
+  background-image: url(../../../../images/button-reset-white.svg);
+}
