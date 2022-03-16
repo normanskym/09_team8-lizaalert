@@ -2,9 +2,20 @@
     margin: 0 auto;
     padding: 12px 24px;
     border: none;
-    background-color: #E6E7EB;
+    background-color: #FF6600;
+    width: 224px;
     border-radius: 16px;
     color: #ffff;
     display: block;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.test__button_show-result:disabled .test__button_show-result-text {
+    color: #9397A3;
+}
+
+.test__button_show-result:disabled {
+    background-color: #E6E7EB;
 }
 
