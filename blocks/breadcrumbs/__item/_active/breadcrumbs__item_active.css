@@ -1,8 +1,0 @@
-.breadcrumbs__item_active {
-	color: #9397A3;
-	font-weight: 400;
-}
-.breadcrumbs__item_active::after {
-	content: "";
-	display: none;
-}

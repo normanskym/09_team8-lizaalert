@@ -1,9 +1,0 @@
-.aside__content-item {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-}
-
-.aside__content-item:not(:last-child) {
-	margin-bottom: 16px;
-}
