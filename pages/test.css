@@ -65,7 +65,7 @@
 @import url(../blocks/test/__answer-check-visible/test__answer-check-visible.css);
 @import url(../blocks/test/__answer-radio/test__answer-radio.css);
 @import url(../blocks/test/__answer-radio-visible/test__answer-radio-visible.css);
-@import url(../blocks/test/__button/_show-result/test__button_show-result.css);
-@import url(../blocks/test/__button/_show-result-text/test__button_show-result-text.css);
-@import url(../blocks/test/__button/_show-result-active/test__button_show-result-active.css);
-@import url(../blocks/test/__button/_show-result-text-active/test__button_show-result-text-active.css);
+@import url(../blocks/test/__button/_result/test__button_result.css);
+@import url(../blocks/test/__button/_result/_text/test__button_result_text.css);
+@import url(../blocks/test/__button/_result/_active/test__button_result_active.css);
+@import url(../blocks/test/__button/_result/_text/_active/test__button_result_text_active.css);
