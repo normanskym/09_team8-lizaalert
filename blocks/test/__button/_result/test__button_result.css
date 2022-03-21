@@ -1,0 +1,21 @@
+.test__button_result{
+    margin: 0 auto;
+    padding: 12px 24px;
+    border: none;
+    background-color: #FF6600;
+    width: 224px;
+    border-radius: 16px;
+    color: #ffff;
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.test__button_result:disabled .test__button_result_text {
+    color: #9397A3;
+}
+
+.test__button_result:disabled {
+    background-color: #E6E7EB;
+}
+
