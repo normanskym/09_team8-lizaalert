@@ -52,20 +52,33 @@
 @import url(../blocks/test/__header/test__header.css);
 @import url(../blocks/test/__header-container/test__header-container.css);
 @import url(../blocks/test/__header-text/test__header-text.css);
+@import url(../blocks/test/__text/test__text.css);
+@import url(../blocks/test/__item/test__item.css);
+@import url(../blocks/test/__logo/test__logo.css);
+@import url(../blocks/test/__line/test__line.css);
+@import url(../blocks/test/__result/test__result.css);
 @import url(../blocks/test/__button/test__button.css);
 @import url(../blocks/test/__button/_back/test__button_back.css);
 @import url(../blocks/test/__button/_next/test__button_next.css);
-@import url(../blocks/test/__button/_next-active/test__button_next-active.css);
 
-/* VIDEO */
-
-@import url(../blocks/video/video.css);
-@import url(../blocks/video/__header/video__header.css);
-@import url(../blocks/video/__container/video__container.css);
-@import url(../blocks/video/__area/video__area.css);
-@import url(../blocks/video/__control-tools/video__control-tools.css);
-@import url(../blocks/video/__play-button/video__play-button.css);
-@import url(../blocks/video/__rewind/video__rewind.css);
-@import url(../blocks/video/__mute-button/video__mute-button.css);
-@import url(../blocks/video/__volume/video__volume.css);
-@import url(../blocks/video/__fullscreen-button/video__fullscreen-button.css);
+/*---------------------test-passed, test-failed-------------------------*/
+@import url(../blocks/test/__button/_end/test__button_end.css);
+@import url(../blocks/test/__button/_reset/test__button_reset.css);
+@import url(../blocks/test/__button/_reset/test__button_reset-icon.css);
+@import url(../blocks/test/__result/type/test__result_type-bad.css);
+@import url(../blocks/test/__result/type/test__result_type-good.css);
+@import url(../blocks/test/__result-percent/test__result-percent.css);
+@import url(../blocks/test/__result-percent/type/test__result-percent_type-bad.css);
+@import url(../blocks/test/__result-percent/type/test__result-percent_type-good.css);
+@import url(../blocks/test/__result-description/test__result-description.css);
+@import url(../blocks/test/__result-description/type/test__result-description_type-bad.css);
+@import url(../blocks/test/__result-description/type/test__result-description_type-good.css);
+@import url(../blocks/test/__result-header/test__result-header.css);
+@import url(../blocks/test/__tasks/test__tasks.css);
+@import url(../blocks/test/__task/test__task.css);
+@import url(../blocks/test/__task-icon/test__task-icon_success.css);
+@import url(../blocks/test/__task-icon/test__task-icon_ok.css);
+@import url(../blocks/test/__task-icon/test__task-icon_error.css);
+@import url(../blocks/test/__task-icon/test__task-icon_false.css);
+@import url(../blocks/test/__button/_reset-orange/test__button_reset-orange.css);
+@import url(../blocks/test/__button/_reset-orange/test__button_reset-orange-icon.css);

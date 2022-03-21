@@ -40,9 +40,9 @@
 		<div class="test__container">
 			<div class="test__header-container">
 				<h2 class="test__header">Тест</h2>
-				<a class="test__link" href="#">Посмотреть условия</a>
+				<a class="test__link" href="test-about.html">Посмотреть условия</a>
 			</div>
-			<fieldset class="test__area">
+			<fieldset class="test__area" id="firstq">
 				<div class="test__question">1. В каких случаях перспективно применение следовых кинологических
 					расчётов?</div>
 					<div class="test__answer-container">
@@ -70,7 +70,7 @@
 					  </div>
 			</fieldset>
 
-			<fieldset class="test__area">
+			<fieldset class="test__area" id="secondq">
 				<div class="test__question">2. С какого возраста следует начинать дрессировку по курсу ПСС?</div>
 					<div class="test__answer-container">
 					  <label class="test__answer-label" for="first-radiobutton">
@@ -94,15 +94,15 @@
 						</label>
 					  </div>
 			</fieldset>
-			<button class="test__button_show-result">
-				<p class="test__button_show-result-text">Показать результат</p>
+			<button class="test__button test__button_show-result">
+				<a href="test-passed.html"><p class="test__button_show-result-text">Показать результат</p></a>
 			</button>
 
 			<button class="test__button test__button_next">Далее &rarr;</button>
-			<button class="test__button test__button_back">&larr; Назад</button>
+			<a href="test-preview.html"><button class="test__button test__button_back">&larr; Назад</button></a>
 		</div>
 	</section>
-	<aside class="aside sidebar_right">
+	<aside class="aside sidebar sidebar_right">
 		<div class="aside__content-form">
 			<div class="aside__form-head">
 				<h2 class="aside__title">Содержание</h2>
@@ -203,6 +203,8 @@
 			</ul>
 		</div>
 	</aside>
+	<script src="./scripts/filter-toggler.js"></script>
+	<script src="./scripts/test.js"></script>
 </body>
 
 </html>
