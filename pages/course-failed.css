@@ -54,7 +54,7 @@
 @import url(../blocks/test/__header-text/test__header-text.css);
 @import url(../blocks/test/__result-text/test__result-text.css);
 @import url(../blocks/test/__result-item/test__result-item.css);
-@import url(../blocks/test/__result-item/_font-bold/test__result-item_font-bold.css);
+@import url(../blocks/test/__result-item/_font/_bold/test__result-item_font-bold.css);
 @import url(../blocks/test/__result/test__result.css);
 @import url(../blocks/test/__button/test__button.css);
 @import url(../blocks/test/__button/_back/test__button_back.css);
