@@ -1,0 +1,12 @@
+.test__result-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 133%;
+  color: #212329;
+  margin: 0;
+}
+
+#header__under-bottom {
+  border-top: 1px solid #e6e7eb;
+  padding-top: 32px;
+}

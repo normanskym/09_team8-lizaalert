@@ -1,0 +1,4 @@
+.breadcrumbs {
+	grid-area: breadcrumbs-area;
+	margin: 8px 0 16px 0;
+}

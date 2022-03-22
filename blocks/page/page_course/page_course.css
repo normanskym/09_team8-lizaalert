@@ -1,0 +1,19 @@
+.page_course {
+	display: grid;
+	/* previous version */
+	/* grid-template-columns: 36px minmax(min-content, 67%) minmax(min-content, calc(33% - 48px)) 36px; */
+	grid-template-columns: 36px minmax(min-content, 61%) minmax(min-content, calc(30% - 8px)) 36px;;
+	grid-template-areas:
+		"header header header header"
+		". breadcrumbs-area breadcrumbs-area . "
+		". content sidebar-right .";
+	box-sizing: border-box;
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	padding-bottom: 24px;
+	column-gap: 24px;
+	background-color: #fcfcfc;
+	color: #212329;
+}

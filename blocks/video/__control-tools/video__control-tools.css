@@ -1,0 +1,9 @@
+.video__control-tools{
+    position: absolute;
+    bottom: 34px;
+    right: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+}
